@@ -1,0 +1,414 @@
+/* Universal style */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #363636;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    line-height: 190%;
+}
+a{
+    text-decoration: none;
+
+}
+
+/* ****************************************************************** */
+/* Menu                                                               */
+/* ***************************************************************** */
+
+#menu{
+    height: 60px;
+    background-color: #36454F;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+#menu li{
+    display: inline-block;
+
+}
+#menu a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 60px;
+    color: white;
+
+    padding: 0 40px;
+    border: none;
+    display: block;
+}
+
+#menu a:hover{
+    background-color: rgb(155, 32, 32);
+}
+
+#logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px; 
+    height: 100px; 
+}
+
+/* ******************************************************************** */
+/* Header                                                               */
+/* ******************************************************************** */
+
+#header{
+    padding: 60px 0px 40px 0;
+    background-color: white;
+    text-align: center;
+}
+
+#header img{
+    width: 20%;
+    height: 20%;
+}
+
+#header h1{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#header h3{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* ******************************************************************** */
+/* Page                                                                 */
+/* ******************************************************************** */
+
+#page{
+    min-height: 400px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+#page h1{
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgb(155, 32, 32);
+    text-align: center;
+}
+
+/* CONTENT */
+
+#content{
+    float: left;
+    width: 70%; 
+   display: flex;
+  justify-content: space-between;
+  padding-bottom: 35px;
+}
+
+#mini-box1{
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding: 20px;
+    width: 40%;
+}
+
+#mini-box2 {
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding: 20px;
+    width: 40%;
+}
+
+
+
+/* CONTENT2 */
+
+#content2 {
+    float: left;
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    clear: both;
+}
+
+#display-box1 {
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding: 20px;
+    width: 40%;
+    clear: top;
+    float: center;
+    margin: 20px 0 20px 0;
+}
+
+#display-box1 img{
+    width: 70%;
+    height: 50%;
+    float: center;
+    padding-left: 30px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
+}
+
+#display-box1 img:hover{
+	-moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);
+ }
+
+ #display-button{
+    background-color: rgb(155, 32, 32);
+    display: block;
+    width: 25%;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    color: white;
+    padding: 10px 0 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#display-button:hover{
+    background-color: #000;
+}
+
+/* CONTENT3 */
+
+#content3 {
+    float: left;
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    clear: both;
+}
+
+#display-box2 {
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding: 20px;
+    width: 40%;
+    clear: top;
+    float: center;
+    margin: 20px 0 20px 0;
+}
+
+#display-box2 img{
+    width: 70%;
+    height: 50%;
+    float: center;
+    padding-left: 30px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
+}
+
+#display-box2 img:hover{
+	-moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);
+ }
+
+/* CONTENT4 */
+
+#content4 {
+    float: left;
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    clear: both;
+}
+
+#display-box3 {
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding: 20px;
+    width: 40%;
+    clear: top;
+    float: center;
+    margin: 20px 0 20px 0;
+}
+
+#display-box3 img{
+    width: 70%;
+    height: 50%;
+    float: center;
+    padding-left: 30px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
+}
+
+#display-box3 img:hover{
+	-moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);
+ }
+
+/* CONTENT3 */
+
+#content5 {
+    float: left;
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    clear: both;
+}
+
+#display-box4 {
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding: 20px;
+    width: 40%;
+    clear: top;
+    float: center;
+    margin: 20px 0 20px 0;
+}
+
+#display-box4 img{
+    width: 70%;
+    height: 50%;
+    float: center;
+    padding-left: 30px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
+}
+
+#display-box4 img:hover{
+	-moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);
+ }
+
+/* SIDEBAR */
+
+#sidebar{
+    float: right;
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+#sidebar a{
+    color: #36454F;
+    text-decoration: none;
+}
+#sidebar a:hover{
+    color: rgb(155, 32, 32);
+}
+
+/* list */
+
+ul.styled{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.styled li{
+    border-top: solid 1px #425561;
+    padding: 14px 0px;
+}
+
+/* ******************************************************************** */
+/* Banner                                                               */
+/* ******************************************************************** */
+
+#banner h1{
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgb(155, 32, 32);
+    text-align: center;
+}
+
+
+/* ******************************************************************** */
+/* Footer                                                               */
+/* ******************************************************************** */
+
+#footer{
+    width: 100%;
+    height: 460px;
+    background-color: #1e1b1a;
+    padding-top: 25px;
+    padding-left: 22px;
+    clear: both;
+}
+
+#footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+}
+
+#footer p{
+    color: #adadad;
+}
+
+#footer a{
+    color: #adadad;
+}
+
+#box1{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+#box1 a{
+    line-height: 21px;
+}
+
+#box1 a:hover{
+    color: rgb(155, 32, 32);
+}
+
+#box2{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+#box2 a:hover{
+    color: rgb(155, 32, 32);
+}
+
+#box3{
+    float: right;
+    width: 30%;
+    padding-left: 30px;
+}
+
+#box3 img{
+    width: 10%;
+    height: 10%;
+    padding: 2px;
+}
